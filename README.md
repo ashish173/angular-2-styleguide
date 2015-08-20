@@ -25,6 +25,17 @@ Thanks to our module loader, we now see where this bootstrap and App comes from 
 
 Components are the center most important piece of Angular2 so one should really understand what components are.
 
+Components are the basic building blocks which build an application, these blocks have views, and class.
+
+So someone coming from angular1.x will agrue aren't components similar to directives they too have controllers(class here) and then a custom view, well to say that won't be wrong.
+
+In fact Angular2 components are more or less the directives of Angular1.x, whick makes sense as directives bring the real power of DOM manipulation. They are the real heroes of this war!!!
+
+In fact components extend from from angular2's directives, 
+
+Here is a full comparision of Directives in Angular1.x to Components in Angular2.0.alpha
+
+
 
 ## Directives ##
 
@@ -39,4 +50,5 @@ Components are the center most important piece of Angular2 so one should really 
 
 
 ## Services ##
+
 
